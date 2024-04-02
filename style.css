@@ -82,6 +82,17 @@ margin: 5px 0;
     margin: 5px 0;
 }
 
+.info h1:hover
+{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.info h1:hover .card-wrapper
+{
+    box-shadow: 18px 18px;
+}
+
 .info p
 {
     color: hsl(0, 0%, 50%);
